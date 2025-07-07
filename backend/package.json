@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "paths": {
+    "loggingmiddleware/*": [
+      "../loggingmiddleware/src/*"
+    ]
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19"
+  }
+}
